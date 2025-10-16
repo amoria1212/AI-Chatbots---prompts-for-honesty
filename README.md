@@ -1,1 +1,1 @@
-# AI-Chatbots---prompts-for-honesty
+# AI Chatbots-prompts for honesty
