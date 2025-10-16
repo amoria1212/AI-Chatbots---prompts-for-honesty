@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>AI Chatbots, Validation, and Your Well-Being</title>
-
-    <meta property="og:title" content="AI Chatbots, Validation, and Your Well-Being">
+    <title>AI Chatbot Prompts</title>
+    
+    <!-- Meta Tags for Link Previews -->
+    <meta property="og:title" content="AI Chatbot Prompts">
     <meta property="og:description" content="A guide to using AI in a way that supports mental health and healthy relationships.">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +35,86 @@
             border-radius: 0.5rem;
             box-shadow: 0 10px 30px rgba(0,0,0,0.07);
         }
-        /* ... the rest of your CSS styles remain unchanged ... */
+        .logo-container {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .section-header {
+            position: relative;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            margin-top: 2rem;
+            font-size: 1.8rem;
+        }
+        .section-header::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 2px;
+            background-color: #D1D5DB;
+            border-radius: 9999px;
+        }
+        .info-box {
+            background-color: #f0e8e6;
+            border-left: 4px solid #D1D5DB;
+            padding: 1rem 1.5rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style-position: inside;
+            padding-left: 0.5rem;
+        }
+        ul li::marker {
+            color: #D1D5DB;
+        }
+        .crisis-box {
+            background-color: #fef2f2;
+            border: 1px solid #fecaca;
+            color: #991b1b;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin-top: 2rem;
+        }
+        .crisis-box h3 {
+            color: #b91c1c;
+        }
+        .prompt-box {
+             background-color: #f9fafb;
+             border: 1px dashed #d1d5db;
+             padding: 1.5rem;
+             border-radius: 0.5rem;
+             margin-top: 1rem;
+        }
+        .prompt-box p {
+            font-family: monospace;
+            color: #4b5563;
+        }
+        .handout-footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e5e7eb;
+            font-size: 0.8rem;
+            color: #9ca3af;
+        }
+
+        /* PRINT STYLES */
+        @media print {
+            body {
+                background-color: #ffffff;
+            }
+            .handout-container {
+                margin: 0;
+                box-shadow: none;
+                padding: 1in;
+            }
+            .no-print {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -127,5 +207,3 @@
     </div>
 </body>
 </html>
-
-
